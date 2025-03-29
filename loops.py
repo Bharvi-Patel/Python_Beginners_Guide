@@ -115,10 +115,26 @@ while (i<11):
     i+=1
 
 
-# greet people whose name starts with "B"
-l1 = ["Bharvi","Kharva","Bhavyaa"]
-for i in l1:
-    if(i.startswith("B")):
-        print(i)
+# # greet people whose name starts with "B"
+# l1 = ["Bharvi","Kharva","Bhavyaa"]
+# for i in l1:
+#     if(i.startswith("B")):
+#         print(i)
 
 
+# Prime Number
+for i in range(2,n):
+    if(n%i==0):
+        print(f"{n} is not a Prime Number!")
+        break
+else:
+    print(f"{n} is a Prime Number!")
+
+
+# sum of first n natural number
+i = 1
+sum = 0
+while(i<=n):
+    sum += i
+    i+=1
+print(f"Sum of first {n} Natural numbers are : {sum}")
