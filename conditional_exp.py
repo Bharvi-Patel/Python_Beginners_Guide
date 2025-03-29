@@ -101,3 +101,15 @@ else:
 
 
 # Membership keyword
+# A spam comment is defined as text containing certain keywrods.Program to detect this spams
+a = "make a lot of money"
+b = "buy now"
+c = "subscribe this"
+d = "click this"
+
+msg = input("Write a text message : ")
+if(a in msg or b in msg or c in msg or d in msg):
+    print("SPAM")
+else:
+    print(msg)
+# print(len(msg))
