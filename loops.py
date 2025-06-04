@@ -17,7 +17,7 @@ else:
     print("Byeee")
 
 
-# For loop - usedd for sequentian traversal
+# For loop - used for sequential traversal
 # In Python, there is “for in” loop which is similar to foreach loop in java
 # for iterator_var in sequence:
 #     statements(s)
@@ -44,7 +44,7 @@ for i in s:
 # with Dictionary
 d = {"name":"betty","Age":18}
 for i in d:
-    print(i)# only rpints the keys
+    print(i)# only prints the keys
     print(i,d[i])#key value pair
 # with set
 set = {21,"rats",56,98,"cats"}
@@ -83,7 +83,7 @@ else:
 
 # Loop Control statements - change execution from their normal sequence
 # Continue -  returns the control to the beginning of the loop 
-# skip the current iteratipn and skip to the next
+# skip the current iteration and skip to the next
 for letter in 'Look What you Made me do':
     if letter == 'e' or letter == 'o':
         continue

@@ -3,6 +3,16 @@ name = "Bharvi"
 
 print(len(name))
 
+str = name + "Patel" 
+print(str) 
+
+# Multiline strings
+tay = '''In your Wildest Dreams...
+aaahhh haaaa...'''
+print(tay)
+
+new = "Heyy"
+print(new*3)
 # String slicing : indexing is from 0 (for left to right) and it's from -1(for reverse
 # S =  name[ind_start:ind_end]
 str1 = name[0:4] #0 to 3 (4 won't be included)

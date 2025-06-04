@@ -50,4 +50,10 @@ L3.append(f6)
 f7 = input("Enter fruit name : ")
 L3.append(f7)
 
+
 print(L3)
+
+# l4 = [4,5,6]
+# l5 = [6,5,4]
+# print(l4+l5)
+# print(l4*2)

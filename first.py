@@ -5,9 +5,9 @@ print("Hello,World!")
 print("Twinkle Twinkle Little star,"
 "How i wonder what you are")
 
-# import pyjokes
-# joke = pyjokes.get_joke()
-# print(joke)
+import pyjokes
+joke = pyjokes.get_joke()
+print(joke)
 
 # REPL - Read Evaluate Print Loop : write Python on the terminal,enter,it will work as a calculator!!!
 '''python interpreter humse python code leke use machine code mein convert karta hai 
@@ -29,7 +29,7 @@ for item in contents:
 # escape characters
 x = "you belong" \
 " with me"
-
+print(x)
 '''
     \n = new line
     \t = tab space
@@ -37,3 +37,4 @@ x = "you belong" \
 '''
 
 y = "nasjcjh dsvnsdjn  jvhw \"dsdss\" "
+print(y)

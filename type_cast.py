@@ -16,10 +16,12 @@ print(r)
 c = float(d)
 u = type(c)
 print(u)
+print(c)
 
 v = float(a)
 x = type(v)
 print(x)
+print(v)
 
 #INPUT function
 y = input("Enter a number : ")
@@ -30,9 +32,9 @@ n = int(input("Enter a number : "))
 o = int(input("Enter a number : "))
 print(n+o)
 
-# python program to find a remainder when the number divided by 2
+# python program to find a remainder when the number is divided by 2
 f = 29
-q = 29%2
+q = f%2
 print("Remainder is : ",q)
 
 # Checking the datatype of variable assigned by input function
