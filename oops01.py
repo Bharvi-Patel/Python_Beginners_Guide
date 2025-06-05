@@ -20,7 +20,7 @@ class Car :
 wagnor = Car()
 '''
  *python mein har ek chiz object hai pr object kisi class ka hi ho skta hai*
- *in python,datatype is a class and when me declare variable in our code it's actually object of that class eg. a=10(a is object of int class)*
+ *in python,datatype is a class and when we declare variable in our code it's actually object of that class eg. a=10(a is object of int class)*
  '''
         
 
