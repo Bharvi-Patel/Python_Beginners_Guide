@@ -13,3 +13,7 @@ class Car:
     
 c1 = Car()
 print(c1.color)
+
+# del keyword : used to delete object properties or object itself
+del s1.name
+del s1
